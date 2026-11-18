@@ -19,6 +19,7 @@ def detect_road(frame):
     height, width = frame.shape[:2]
 
     # Convert BGR image to HSV
+    #Hue Saturation Value
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
     # Initial grey-road thresholds
