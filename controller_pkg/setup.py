@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
            'my_controller = controller_pkg.my_controller:main',
+           'road_follower = controller_pkg.road_follower:main',
         ],
     },
 )
